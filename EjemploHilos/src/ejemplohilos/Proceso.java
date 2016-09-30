@@ -19,7 +19,7 @@ public class Proceso extends Thread{
      
      
      for (int i = 0; i < 2; i++) {
-         System.out.println(msg);
+         System.out.println(this.getName());
      }
      
  }
